@@ -48,7 +48,7 @@ public class Body {
 	}
 	
 	/**
-	 * when the snake eat an apple, it grows so that we need to add a new piece of body to him.
+	 * when the snake eats an apple, it grows so that we need to add a new piece of body to him.
 	 * @param direction the direction where the snake is going: D for down, U for up, L for left and R for right.
 	 * @return it returns true if it has been possible to add a new element to the array, otherwise it returns false
 	 */
@@ -90,7 +90,7 @@ public class Body {
 	}
 	
 	/**
-	 * this method return the coordinate of a point in the position wanted.
+	 * this method returns the coordinate of a point in the position wanted.
 	 * @param index the index of the array's element needed.
 	 * @return an object of the class Punto.
 	 */
@@ -100,7 +100,7 @@ public class Body {
 		return new Punto(snake[index]);
 	}
 	/**
-	 * this method return the coordinate of a point in the position wanted.
+	 * this method returns the coordinate of a point in the position wanted.
 	 * @param index the index of the array's element needed.
 	 * @return an array which contains two int values: coordinate x of the point and coordinate y.
 	 */
